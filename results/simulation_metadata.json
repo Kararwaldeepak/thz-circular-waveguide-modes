@@ -1,0 +1,52 @@
+{
+  "model": "semi-analytical circular metallic waveguide",
+  "phasor_convention": "exp(+j*omega*t - j*beta*z)",
+  "waveguide": {
+    "radius_m": 0.001,
+    "length_m": 0.4,
+    "conductivity_s_m": 58000000.0
+  },
+  "lens": {
+    "focal_length_m": 0.1,
+    "diameter_m": 0.0508,
+    "fill_factor": 1.0,
+    "beam_quality_m2": 1.0
+  },
+  "frequency_min_thz": 0.1,
+  "frequency_max_thz": 2.0,
+  "frequency_points": 96,
+  "coupling_modes": [
+    "TE11-sin",
+    "TM11-cos",
+    "TE12-sin",
+    "TM12-cos",
+    "TE13-sin",
+    "TM13-cos",
+    "TE14-sin",
+    "TM14-cos",
+    "TE15-sin",
+    "TM15-cos",
+    "TE16-sin",
+    "TM16-cos",
+    "TE17-sin",
+    "TM17-cos",
+    "TE18-sin",
+    "TM18-cos",
+    "TE19-sin",
+    "TM19-cos",
+    "TE1,10-sin",
+    "TM1,10-cos",
+    "TE1,11-sin",
+    "TM1,11-cos",
+    "TE1,12-sin",
+    "TM1,12-cos"
+  ],
+  "assumptions": [
+    "air-filled circular bore",
+    "perfect-conductor eigenfields",
+    "copper loss from first-order surface-resistance perturbation",
+    "centered x-polarized diffraction-limited Gaussian",
+    "lens fill_factor defines the 1/e field radius on the lens",
+    "no flange reflection, roughness, taper, misalignment, or atmospheric absorption"
+  ]
+}

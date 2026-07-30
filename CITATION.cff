@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "THz Circular Copper Waveguide Modes"
+type: software
+authors:
+  - family-names: "Kararwal"
+    given-names: "Deepak"
+version: 1.0.0
+date-released: 2026-07-24
+license: MIT
+abstract: >-
+  Semi-analytical simulation of broadband Gaussian THz beam coupling,
+  propagation, dispersion, and copper loss in a circular metallic waveguide.
+keywords:
+  - terahertz
+  - circular waveguide
+  - Gaussian coupling
+  - electromagnetic modes
+  - copper waveguide

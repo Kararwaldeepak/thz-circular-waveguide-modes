@@ -1,0 +1,21 @@
+{
+  "waveguide": {
+    "material": "copper",
+    "inner_diameter_mm": 2.0,
+    "length_cm": 40.0,
+    "conductivity_s_m": 58000000.0
+  },
+  "lens": {
+    "focal_length_mm": 100.0,
+    "diameter_mm": 50.8,
+    "fill_factor": 1.0,
+    "beam_quality_m2": 1.0
+  },
+  "sweep": {
+    "minimum_thz": 0.1,
+    "maximum_thz": 2.0,
+    "points": 96,
+    "radial_orders": 12,
+    "grid_size": 161
+  }
+}
